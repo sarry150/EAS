@@ -1,3 +1,9 @@
 plugins {
   id "org.sonarqube" version "2.7"
 }
+
+./gradlew sonarqube \
+  -Dsonar.projectKey=sarry150_EAS \
+  -Dsonar.organization=sarry150-github \
+  -Dsonar.host.url=https://sonarcloud.io \
+  -Dsonar.login=c4b76cc1ee586375013ddbf895251f5be1579a2a
