@@ -1,0 +1,5 @@
+mvn sonar:sonar \
+  -Dsonar.projectKey=sarry150_EAS \
+  -Dsonar.organization=sarry150-github \
+  -Dsonar.host.url=https://sonarcloud.io \
+  -Dsonar.login=fbbeacc43d7af557f8fe34ca0b781f02f62af68d
